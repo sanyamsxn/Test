@@ -48,7 +48,7 @@
 }
 #first .details2 p{
     color:rgb(206, 191, 191);
-    font-size: 30px;
+    font-size: 25.3px;
 }
 
 
@@ -125,12 +125,13 @@
 
 
 
-@media(max-width: 300px){
+@media(max-width : 700px){
     #first{
         height: 700px;
     }
     #first .heading h1{
         font-size:35px;
+        color:greenyellow
     }
     #first .details p{
         font-size: 20px;
