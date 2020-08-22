@@ -127,7 +127,7 @@
 
 @media(max-width : 500px){
     #first{
-        height: 900px;
+        height: 1300px;
     }
     #first .heading h1{
         font-size:35px;
