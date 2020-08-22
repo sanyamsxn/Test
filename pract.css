@@ -125,7 +125,7 @@
 
 
 
-@media(max-width : 700px){
+@media(max-width : 500px){
     #first{
         height: 700px;
     }
@@ -137,7 +137,7 @@
         font-size: 20px;
     }
     #first .details2 p{
-        font-size: 18px;
+        font-size: 15px;
     }
     #second .wrapper h1{
         font-size: 35px
