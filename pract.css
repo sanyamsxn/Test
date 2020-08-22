@@ -1,0 +1,138 @@
+*{
+    margin:0px;
+    padding: 0px
+}
+
+#first{
+    height: 700px;
+    width:auto;
+    background: rgb(0, 0, 0);
+    position: relative;
+}
+
+#first .heading{
+    position: absolute;
+    top:2%;
+    height: max-content;
+    width: 100%;
+    
+}
+
+#first .heading h1{
+    text-align: center;
+    font-size:40px;
+    color:whitesmoke
+}
+
+#first .details{
+    position: absolute;
+    top:10%;
+    box-shadow: 0 5px 5px rgb(48, 43, 43);
+    margin: 40px;
+    width: 33.3%;
+}
+#first .details p{
+    font-size: 30px;
+    color:rgb(173, 167, 167);
+    text-align: start;
+}
+
+#first .details2{
+    position: absolute;
+    top:10%;
+    margin: 20px;
+    left:40%;
+    width: 50%;
+    box-shadow: 0 5px 5px rgb(48, 43, 43);
+    
+}
+#first .details2 p{
+    color:rgb(206, 191, 191);
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#second{
+    height: 700px;
+    width: auto;
+    background: linear-gradient(to right, black, rgb(31, 27, 27));
+    position: relative;
+}
+
+#second .heading-second{
+    position: absolute;
+    top:2%;
+    width: 100%;
+}
+
+#second .heading-second h1{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+#second .wrapper-outside{
+    display: flex;
+    justify-content: center;
+}
+
+#second .wrapper{
+    width: max-content;height: max-content;
+    position: absolute;
+    top:20%;
+}
+
+#second .wrapper h1{
+    color: whitesmoke;
+    size:30px;
+}
+#second .wrapper .bar{
+    width: 500px;
+    height: 4px;
+    display: inline-block;
+    background: black;
+    border: 2px solid grey;
+    border-radius: 4px;
+}
+#second .wrapper .bar .html{
+    float:left;
+    background: lightseagreen;
+    height: 3px;
+}
+
+@keyframes animate{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+#second .wrapper .percent-html{
+    color: beige;
+    font-size:20px
+}
+
+
+
+@media(max-width:600px){
+    #first .heading h1{
+        font-size:35px;
+    }
+    #first .details p{
+        font-size: 20px;
+    }
+    #first .details2 p{
+        font-size: 22px;
+    }
+}
