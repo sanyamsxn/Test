@@ -135,4 +135,11 @@
     #first .details2 p{
         font-size: 22px;
     }
+    #second .wrapper h1{
+        font-size: 35px
+    }
+    #second .wrapper .bar{
+        width: 300px;
+    }
+
 }
