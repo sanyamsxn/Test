@@ -18,7 +18,6 @@ window.addEventListener('scroll',()=>{
     }, 24)
     }
     else{
-        anim.style.animation = "none"
         html.innerHTML = " "
     }
 })
